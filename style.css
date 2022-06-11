@@ -1,0 +1,78 @@
+.result_text {
+    width: 12%;
+    height: 100%;
+    background-color: rgba(252, 255, 250, 0.925);
+    border-radius: 20px;
+    border-color: white;
+    text-align: right;
+    font-size: 20px;
+}
+
+.result_screen {
+    width: 2000px;
+    height: 100px;
+    position: relative;
+    right: -20px;
+}
+
+body {
+    background-color: rgb(250, 248, 240);
+}
+
+button {
+    position: relative;
+    right: -220px;
+    bottom: -10px;
+    border-color: grey;
+    background-color: rgb(240, 226, 220);
+    color: black;
+    font-size: 15px;
+    width: 35px;
+    height: 30px;
+    border-radius: 30px;
+}
+
+button:hover {
+    background-color: rgb(233, 61, 18);
+    color: white;
+}
+
+.all {
+    width: 290px;
+    height: 450px;
+    background-color: rgba(188, 250, 118, 0.356);
+    border-radius: 20px;
+    border-color: white;
+    position: relative;
+    right: -50px;
+}
+
+h1 {
+    margin-block-end: 20px;
+    margin-block-start: 20px;
+    position: relative;
+    right: -100px;
+    font-size: 40px;
+    color: rgb(86, 163, 140);
+}
+
+input[type=button] {
+    background-color: rgba(252, 255, 250, 0.925);
+    color: #4CAF50;
+    border-radius: 100px;
+    border-color: white;
+    width: 50px;
+    height: 45px;
+    font-size: 20px;
+    text-align: center;
+    margin: 3px;
+    padding: 3px;
+    position: relative;
+    right: -25px;
+    bottom: -30px;
+}
+
+input[type=button]:hover {
+    background-color: #4CAF50;
+    color: white;
+}

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <h1>Calculator</h1>
+    <div class="all">
+        <br>
+        <div class="result_screen">
+
+            <input type="text" class="result_text" keypress="" id="output" value="0">
+            <br>
+            <button onclick="clean('x')">x</button>
+
+        </div>
+        <br>
+        <div class="_inputs">
+
+            <div class="firstrow">
+                <input type="button" onclick="clean('C')" value="C">
+                <input type="button" onclick="clean('AC')" value="AC">
+                <input type="button" onclick="control('%')" value="%">
+                <input type="button" onclick="control('/')" value="/">
+
+
+            </div>
+            <div class="secondrow">
+                <input type="button" id="so" onclick="f(9)" value="9">
+                <input type="button" id="st" onclick="f(8)" value="8">
+                <input type="button" id="str" onclick="f(7)" value="7">
+                <input type="button" onclick="control('*')" value="X">
+
+
+            </div>
+            <div class="thirdrow">
+                <input type="button" is="sfr" onclick="f(6)" value="6">
+                <input type="button" class="btn " onclick="f(5)" value="5">
+                <input type="button" class="btn " onclick="f(4)" value="4">
+                <input type="button" class="btn " onclick="control('+')" value="+">
+
+
+
+            </div>
+            <div class="fourthrow">
+
+
+                <input type="button" class="btn " onclick="f(3)" value="3">
+                <input type="button" class="btn " onclick="f(2)" value="2">
+                <input type="button" class="btn " onclick="f(1)" value="1">
+                <input type="button" id="sf" onclick="control('-')" value="-">
+
+
+            </div>
+            <div class="fifthrow">
+                <input type="button" class="btn " onclick="changevalue()" value="-/+">
+                <input type="button" class="btn " onclick="f(0)" value="0">
+                <input type="button" class="btn " onclick="forcomma()" value=".">
+                <input type="button" onclick="process()" value="=">
+
+            </div>
+
+        </div>
+    </div>
+
+
+</body>
+
+</html>
